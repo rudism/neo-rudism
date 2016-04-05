@@ -1264,12 +1264,13 @@ body#outbox #core ul.messages .notice:before {
 }
 
 #content .notice {
-    padding-bottom: 4px;
+    padding-bottom: 4px !important;
     overflow: auto;
 }
 
 #content .notice .e-content {
     overflow-y: visible;
+    max-height: none;
 }
 
 .notice div.entry-content {
